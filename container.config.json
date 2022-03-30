@@ -7,9 +7,5 @@
   "policyType": "cpu",
   "policyThreshold": 60,
   "envParams": {},
-  "customLogs": "stdout",
-  "dataBaseName":"yunmusic",
-  "executeSQLs": [
-    "CREATE DATABASE IF NOT EXISTS yunmusic;"
-  ]
+  "customLogs": "stdout"
 }
