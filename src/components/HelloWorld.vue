@@ -7,7 +7,7 @@ const message = ref("毅力音乐和后台")
 
 const hi = () =>{
   sayHello().then(res=>{
-    console.log(res)
+    message.value = res.data
   })
   //message.value = '已请求'
 }
